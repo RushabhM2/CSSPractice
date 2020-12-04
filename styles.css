@@ -1,0 +1,64 @@
+.box {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 10px
+}
+
+.container {
+  display: flex;
+  padding: 5px;
+}
+
+/* Left column */
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.left__top {
+  display: flex;
+  flex: 4;
+}
+
+.left__top div:first-child {
+  flex: 2;
+}
+
+.left__top div:last-child {
+  flex: 3;
+}
+
+.left__bottom {
+  flex: 5;
+  display: flex;
+}
+
+.left__bottom div:last-child {
+  flex: auto;
+}
+
+/* Centre column */
+.centre {
+  display: flex;
+  flex: 1;
+}
+
+.centre div:first-child {
+  flex: auto;
+}
+
+/* Right column */
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.right div:first-child {
+  flex: 8;
+}
+
+.right div:last-child {
+  flex: 1;
+}
